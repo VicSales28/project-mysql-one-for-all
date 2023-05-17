@@ -49,22 +49,22 @@ CREATE TABLE SpotifyClone.seguidores(
 ) engine = InnoDB;
 INSERT INTO SpotifyClone.planos (nome, valor)
 VALUES
-  ('gratuito', 0),
-  ('universitário', 5.99),
-  ('pessoal', 6.99),
-  ('familiar', 7.99);
+('gratuito', 0),
+('universitário', 5.99),
+('pessoal', 6.99),
+('familiar', 7.99);
 INSERT INTO SpotifyClone.usuarios (nome, idade, data_assinatura, id_plano)
 VALUES
-  ('Barbara Liskov', 82, '2019-10-20', 1),
-  ('Robert Cecil Martin', 58, '2017-01-06', 1),
-  ('Ada Lovelace', 37, '2017-12-30', 4),
-  ('Martin Fowler', 46, '2017-01-17', 4),
-  ('Sandi Metz', 58, '2018-04-29', 4),
-  ('Paulo Freire', 19, '2018-02-14', 2),
-  ('Bell Hooks', 26, '2018-01-05', 2),
-  ('Christopher Alexander', 85, '2019-06-05', 3),
-  ('Judith Butler', 45, '2020-05-13', 3),
-  ('Jorge Amado', 58, '2017-02-17', 3);
+('Barbara Liskov', 82, '2019-10-20', 1),
+('Robert Cecil Martin', 58, '2017-01-06', 1),
+('Ada Lovelace', 37, '2017-12-30', 4),
+('Martin Fowler', 46, '2017-01-17', 4),
+('Sandi Metz', 58, '2018-04-29', 4),
+('Paulo Freire', 19, '2018-02-14', 2),
+('Bell Hooks', 26, '2018-01-05', 2),
+('Christopher Alexander', 85, '2019-06-05', 3),
+('Judith Butler', 45, '2020-05-13', 3),
+('Jorge Amado', 58, '2017-02-17', 3);
 
 INSERT INTO SpotifyClone.artistas (nome)
 VALUES
